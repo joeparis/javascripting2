@@ -4,7 +4,7 @@ var pets = ['cat', 'dog', 'rat'];
 //     pets[i] = pets[i] + 's';
 // }
 
-pets.forEach(funtion(element, index, array) {
+pets.forEach((element, index, array) => {
     array[index] = element + 's';
 });
 
